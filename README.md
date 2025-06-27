@@ -23,4 +23,4 @@ This is a challenge from [Frontend Mentor](https://www.frontendmentor.io) where 
 
 ## 📷 Captura de pantalla | Screenshot
 ![Screenshot](image-1.png)
-## 🚀 Cómo ejecutarlo localmente | How to run it locally
+
