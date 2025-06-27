@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+}
+.card-social{
+    background-color: hsl(0, 0%, 12%);
+    padding: 3rem;
+    width: 20rem;
+    border-radius: 1.5rem;
+    transform: scale(0.55);
+    transform-origin: center;
+
+}
+
+.card-social img{
+    width: 35%;
+    display: block;
+    border-radius: 10rem;
+    padding: 0.1rem;
+    margin-bottom: 1rem;
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.name{
+    text-align: center;
+    color: white;
+    margin-bottom: 0.2rem;
+}
+
+.city{
+    display: block;
+    color:hsl(75, 94%, 57%);
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 0;
+
+}
+
+.description{
+    display: block;
+    text-align: center;
+    font-size: 0.85rem;
+    color: rgb(223, 217, 217);
+    margin-bottom: 2rem;
+   
+}
+
+.card-social-links a{
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;       
+  text-decoration: none; 
+  text-align: center;
+  border-radius: 0.6rem;
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+
+}
+.card-social-links a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+@media screen and (max-width: 23.4375rem) {
+
+
+    .card {
+        width: 85%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+
+    .card {
+        width: 18rem;
+        padding: 1.25rem;
+    }
+}
